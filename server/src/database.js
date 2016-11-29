@@ -222,4 +222,5 @@ setInterval(function() {
     fs.writeFileSync(path.join(__dirname, 'database.json'), JSON.stringify(data), { encoding: 'utf8' });
     updated = false;
   }
+  
 }, 200);
